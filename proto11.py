@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 
 # 하드코딩된 능력치 점수 데이터 (엑셀 파일을 바탕으로 변환)
-df = pd.read_excel('/mnt/data/장애유형_직무능력_매칭표 (2).xlsx')
+df = pd.read_excel('장애유형_직무능력_매칭표 (2).xlsx')
 
 # 장애유형과 장애정도에 맞는 능력치 딕셔너리 생성
 능력치 = {}
